@@ -389,32 +389,6 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>#AAPL,ig-platform-id HD620</key>
-				<data>
-				AAAWWQ==
-				</data>
-				<key>#device-id HD620</key>
-				<data>
-				FlkAAA==
-				</data>
-				<key>#enable-lspcon-support</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>#framebuffer-con1-has-lspcon</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>#framebuffer-con2-has-lspcon</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>#framebuffer-patch-enable</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>#model HD620</key>
-				<string>Intel HD Graphics 620</string>
 				<key>AAPL,ig-platform-id</key>
 				<data>
 				AADAhw==
@@ -1076,7 +1050,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string></string>
+				<string>igfxonln=1</string>
 				<key>csr-active-config</key>
 				<data>
 				5wMAAA==
