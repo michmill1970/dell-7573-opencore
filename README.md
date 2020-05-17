@@ -4,7 +4,7 @@ Opencore hackintosh of a Dell 7573 2-in-1 notebook
 
 ## Dell Specs:
 
-* Dell 7573 with BIOS v1.16.0
+* Dell 7573 with BIOS [v1.16.0](https://www.dell.com/support/home/en-us/drivers/driversdetails?driverid=gdtxp&oscode=biosa&productcode=inspiron-15-7573-2-in-1-laptop)
 * i7-8550U
 * UHD 620
 * 16GB RAM
@@ -41,7 +41,7 @@ This build is for Catalina 10.15.4 using Opencore 0.5.8.
 Turn off the Secure Boot. That should be all.
 
 ## UEFI Variables
-In order to run macOS without having to use WhatEverGreen's framebuffer patching and CFG-related booter quirks, it is strongly recommended to modify a few UEFI variables. To do that, you can use ModifiedGrub.efi (credits brainsucker), which provides the setup_var command.
+In order to run macOS without having to use WhatEverGreen's framebuffer patching and CFG-related booter quirks, it is strongly recommended to modify a few UEFI variables. To do that, you can use the included ModifiedGrub.efi (credits *brainsucker*), which provides the setup_var command.
 
 The following variables should be updated:
 Variable|Offset|Default value|Desired value|Comment
