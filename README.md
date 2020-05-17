@@ -26,7 +26,7 @@ This build is for Catalina 10.15.4 using Opencore 0.5.8.
 * Power management including sleep
 * Touchscreen
 * SD Card Reader
-* HDMI Port (mostly, see below)
+* HDMI Port
 * Fn keys to control volume and keyboard backlight
 * Combo jack
 * iMessage and FaceTime (plist in repo sanitized.  You'll need to find your own SN)
@@ -34,7 +34,6 @@ This build is for Catalina 10.15.4 using Opencore 0.5.8.
 ## What's not working
 
 * Integrated RealTek webcam
-* HDMI not waking from sleep
 * Fn keys to control display backlight
 
 ## BIOS Configuration
